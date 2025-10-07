@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v6.1.4, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v6.1.4, mobirise.com">
@@ -88,7 +87,7 @@
         
         <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Full-width block with YouTube video background and flexible
           configuration, free vertical and horizontal
-          content alignment.&nbsp;</p>
+          content alignment. </p>
         <div class="mbr-section-btn"><a class="btn btn-white-outline display-7" href="index.html#article02-2">Learn More</a></div>
       </div>
     </div>
@@ -190,43 +189,55 @@
 </section>
 
 <section data-bs-version="5.1" class="form5 cid-uYTRhiSs6h" id="form02-4">
-    
-    
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 content-head">
                 <div class="mbr-section-head mb-5">
                     <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Contacts</strong>
+                        <strong>訂餐表單 (Meal Order Form)</strong>
                     </h3>
-                    
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="zzVQBp+ptJyXaX+rlSJqZiAEbV98qOW4HUXZG2Sk0chpbP7XPFVjeESd9l0H2y78VTiKYEsJgtzsh5qLTop6/R35iiFNVAKsioV7OM8ED4fHy2qbdknySqYmj5QGSltl">
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                            Oops...! some problem!
-                        </div>
-                    </div>
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLSfjxT2M0RN8kHF5hQExtwdjkceLdPt-b3rQytJzlxU6Mr6g3g/formResponse" method="POST" class="mbr-form form-with-styler" target="_self">
                     <div class="dragArea row">
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form02-4">
+                        <div class="col-md-6 col-sm-12 form-group mb-3">
+                            <input type="text" name="entry.1958155011" placeholder="姓名 (Name)" class="form-control" required>
                         </div>
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-                            <input type="email" name="email" placeholder="E-mail" data-form-field="email" class="form-control" value="" id="email-form02-4">
+                        <div class="col-md-6 col-sm-12 form-group mb-3">
+                            <input type="email" name="entry.1734264513" placeholder="E-mail" class="form-control" required>
                         </div>
-                        <div class="col-12 form-group mb-3" data-for="phone">
-                            <input type="tel" name="phone" placeholder="Phone" data-form-field="phone" class="form-control" value="" id="phone-form02-4">
+                        
+                        <div class="col-md-6 col-sm-12 form-group mb-3">
+                            <input type="text" name="entry.246289483" placeholder="班級 (Class)" class="form-control" required>
                         </div>
-                        <div class="col-12 form-group mb-3" data-for="textarea">
-                            <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-form02-4"></textarea>
+                        <div class="col-md-6 col-sm-12 form-group mb-3">
+                            <input type="number" name="entry.768838269" placeholder="座號 (Seat Number)" class="form-control" required>
                         </div>
+
+                        <div class="col-md-4 col-sm-12 form-group mb-3">
+                            <label for="choice1" class="form-label">第一志願 (First Choice)</label>
+                            <select id="choice1" name="entry.971579260" class="form-control" onchange="updateChoices()" required>
+                                <option value="" disabled selected>請選擇</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 col-sm-12 form-group mb-3">
+                            <label for="choice2" class="form-label">第二志願 (Second Choice)</label>
+                            <select id="choice2" name="entry.1140425096" class="form-control" onchange="updateChoices()" required>
+                                <option value="" disabled selected>請選擇</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 col-sm-12 form-group mb-3">
+                            <label for="choice3" class="form-label">第三志願 (Third Choice)</label>
+                            <select id="choice3" name="entry.1383795737" class="form-control" onchange="updateChoices()" required>
+                                <option value="" disabled selected>請選擇</option>
+                            </select>
+                        </div>
+                        
                         <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
-                            <button type="submit" class="btn btn-primary display-7">Send message</button>
+                            <button type="submit" class="btn btn-primary display-7">送出表單</button>
                         </div>
                     </div>
                 </form>
@@ -296,12 +307,64 @@
             </div>
         </div>
     </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com"> Website Builder Software</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/vimeoplayer/player.js"></script>  <script src="assets/scrollgallery/scroll-gallery.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">‌</p><a style="z-index:1" href="https://mobirise.com"> Website Builder Software</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/vimeoplayer/player.js"></script>  <script src="assets/scrollgallery/scroll-gallery.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
   
   
+<script>
+const menuItems = ["排骨飯", "雞腿飯", "魚排飯", "控肉飯", "滷雞腿", "香腸飯"];
+const selectIds = ["choice1", "choice2", "choice3"];
+
+function updateChoices() {
+    const selectedValues = new Set();
+    const selects = selectIds.map(id => document.getElementById(id));
+
+    // 1. Collect currently selected values
+    selects.forEach(select => {
+        if (select.value) {
+            selectedValues.add(select.value);
+        }
+    });
+
+    // 2. Rebuild options for each dropdown
+    selects.forEach(currentSelect => {
+        const currentValue = currentSelect.value;
+        currentSelect.innerHTML = ''; // Clear existing options
+        
+        // Add default disabled option
+        const defaultOption = document.createElement('option');
+        defaultOption.value = "";
+        defaultOption.text = "請選擇";
+        defaultOption.disabled = true;
+        if (!currentValue) {
+            defaultOption.selected = true;
+        }
+        currentSelect.appendChild(defaultOption);
+
+        // Add all available options
+        menuItems.forEach(item => {
+            const option = document.createElement('option');
+            option.value = item;
+            option.text = item;
+
+            // Disable if selected in another dropdown
+            const isSelectedInOther = selectedValues.has(item) && item !== currentValue;
+
+            if (isSelectedInOther) {
+                option.disabled = true;
+            } else if (item === currentValue) {
+                option.selected = true;
+            }
+            
+            currentSelect.appendChild(option);
+        });
+    });
+}
+
+// Initial population of dropdowns after DOM is loaded
+document.addEventListener('DOMContentLoaded', updateChoices);
+</script>
 </body>
 </html>
 <div class="gtranslate_wrapper"></div>
 <script>window.gtranslateSettings = {"default_language":"zh-TW","languages":["zh-TW","en","ja"],"wrapper_selector":".gtranslate_wrapper","flag_style":"3d"}</script>
 <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
-
